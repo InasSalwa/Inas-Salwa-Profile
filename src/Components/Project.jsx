@@ -1,3 +1,9 @@
+import img1 from  "../assets/Image/idc.png";
+import img2 from "../assets/Image/banner.png";
+import img3 from "../assets/Image/poster.png";
+
+
+
 const Project = () => {
     return (
         <div className="flex flex-col justify-start px-4 sm:px-6 lg:px-8 pt-24 md:pt-32" id="project">
@@ -9,7 +15,7 @@ const Project = () => {
                     {/* Gambar 1 */}
                     <div className="w-full max-w-sm mx-auto group hover:scale-105 transition-all duration-500 ease-in-out">
                         <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                            <img src="/src/assets/Image/idc.png" alt="ID Card" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
+                            <img src={img1} alt="ID Card" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
                             <div
                                 style={{
                                     background: "linear-gradient(to top, rgba(23, 37, 84, 0.9), transparent)",
@@ -25,7 +31,7 @@ const Project = () => {
                     {/* Gambar 2 */}
                     <div className="w-full max-w-sm mx-auto group hover:scale-105 transition-all duration-500 ease-in-out">
                         <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                            <img src="/src/assets/Image/banner.png" alt="Banner" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
+                            <img src={img2} alt="Banner" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
                             <div
                                 style={{
                                     background: "linear-gradient(to top, rgba(23, 37, 84, 0.9), transparent)",
@@ -41,7 +47,7 @@ const Project = () => {
                     {/* Gambar 3 */}
                     <div className="w-full max-w-sm mx-auto sm:col-span-2 lg:col-span-1 group hover:scale-105 transition-all duration-500 ease-in-out">
                         <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                            <img src="/src/assets/Image/poster.png" alt="Poster" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
+                            <img src={img3} alt="Poster" className="object-cover w-full h-full transform transition-transform group-hover:scale-110 duration-700" />
                             <div
                                 style={{
                                     background: "linear-gradient(to top, rgba(23, 37, 84, 0.9), transparent)",

@@ -1,3 +1,5 @@
+import img from "../assets/Image/About.jpg"
+
 const About = () => {
     return (
         <>
@@ -5,7 +7,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12 px-8 max-w-7xl mx-auto">
 
                 <img
-                    src="src/assets/Image/About.jpg" 
+                    src= {img} 
                     alt="Profile"
                     className="w-40 h-40 md:w-64 md:h-64 rounded-full object-cover shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 mt-10 border-4 border-blue-300"
                 />
